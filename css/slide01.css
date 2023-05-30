@@ -1,0 +1,91 @@
+.itm {
+    height: 700px;
+
+}
+
+
+
+.itm01 {
+    background: url(../images/slide01.jpg)no-repeat center center/cover;
+}
+
+.itm02 {
+    background: url(../images/slide02.jpg)no-repeat center center/cover;
+}
+
+.itm03 {
+    background: url(../images/slide03.jpg)no-repeat center center/cover;
+}
+
+.itm04 {
+    background: url(../images/slide04.jpg)no-repeat center center/cover;
+}
+
+.mainVisual {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 0 15px;
+}
+
+
+
+.mainVisual .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.mainVisual .slick-prev {
+    margin: 0 0 0 -300px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.mainVisual .slick-next {
+    margin: 0 0 0 300px;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.mainVisual .slick-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.mainVisual .slick-dots>* {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.mainVisual .slick-dots>* {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.mainVisual .slick-dots button {
+    background: #ddd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.mainVisual .slick-dots li.slick-active button {
+    background: #333;
+}
