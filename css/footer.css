@@ -1,0 +1,58 @@
+.footer {
+    padding: 50px 0;
+    background: #222;
+    color: #aaa;
+    font-size: 14px;
+
+
+}
+
+
+
+.footer .top {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.footer .top ul {
+    display: flex;
+
+}
+
+.footer .top .link li {
+    padding: 0 15px 20px 0;
+}
+
+.footer .top .link .b {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer .sns {
+
+    font-size: 50px;
+    font-weight: 500;
+    transform: translate(0, -20px);
+}
+
+
+.bottom {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom ul {
+    display: flex;
+
+    padding: 0 15px;
+}
+
+.bottom ul>li {
+    padding: 0 15px 0 0;
+}
