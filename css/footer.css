@@ -56,3 +56,20 @@
 .bottom ul>li {
     padding: 0 15px 0 0;
 }
+
+.to_top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+.to_top i {
+
+    background: rgba(0, 102, 255, 0.788);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
